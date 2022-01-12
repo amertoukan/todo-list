@@ -1,0 +1,94 @@
+.container {
+    background-color: red;
+    margin: 0; 
+    padding: 0;
+
+}
+ h1{
+     font-size: 3em;;
+ }
+
+
+.header-label {
+    font-size: 2em;
+}
+
+.input-container { 
+    background-color: blue;
+    padding: 20px;
+    align-items: stretch;
+}
+
+.input {
+    width: 80%;
+    margin-right: 2%;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.button{
+    padding: 10px;
+}
+
+.list-item{
+    text-decoration: none; 
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    margin: 15px;
+}
+.inline{
+    float: auto;
+    display: inline;
+    width: 100;
+    justify-content: space-between;
+
+}
+.left{
+    float: left;
+}
+.center{
+    clear: both; 
+    align-items: center;
+}
+.right{
+    float: right;
+}
+.list-item-container{
+    align-items: center; 
+    justify-content: space-between;
+    width: 95%;
+    margin: 20px;
+    padding: 10px;
+
+    display: block;
+    background-color: red;
+}
+.settings {
+    font-weight: bolder;
+    padding: 0px 50px;
+}
+
+.settings:hover{
+    cursor: pointer;
+}
+
+.checkbox{
+    width: 20px; 
+    height: 20px;
+    border-radius: 50%; 
+    transition: all .5s ease; 
+    cursor: pointer; 
+    top: -2px; 
+    left: -3px; 
+    background: #ccc;
+}
+.checkbox:hover{
+    cursor: pointer;
+    background: rgb(135, 135, 135);
+}
+
+.checkbox-checked{
+
+}
