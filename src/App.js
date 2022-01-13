@@ -66,7 +66,7 @@ function App() {
   }
   return (
     <div className="App">
-      <div className='container'>
+      <div className='container inline'>
       <h1> Todo List </h1>
       </div>
       
@@ -74,7 +74,7 @@ function App() {
 
       <div className="input-container">
       <input className="input" type={'text'} onKeyUp = {handleInput} placeholder="Todo Item" />
-      <button className = "button" onClick = {handleButton}> Submit </button>
+      <button className = "button" onClick = {handleButton}> Add Task </button>
       </div>
       <div className = "container">
       <h2>To Do Items</h2>
@@ -88,13 +88,13 @@ function App() {
         <input className = "checkbox inline left" type="checkbox" onChange = {handleOnChange} id={index}  />
         <li className="list-item inline center"> {item.title}</li>
         <span className = "inline settings right" onClick={handleDelete} id={item.title}>x</span>
-          <br/>
+          <hr className="dotted"/>
         </span>
         )
       }
     })}
 
-<div className = "container">
+<div className = "container inline">
 <h2>Done Tasks</h2>
 </div>
    {

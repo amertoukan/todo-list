@@ -1,33 +1,71 @@
+body{ 
+    font-family: 'Inconsolata', monospace;
+}
 .container {
-    background-color: red;
-    margin: 0; 
-    padding: 0;
+
+    align-items: center;
+    justify-content: center;
+
 
 }
  h1{
+     font-family: 'Luxurious Roman', cursive;
      font-size: 3em;;
  }
 
+ h2{
+    font-family: 'The Nautigal', cursive;
+     font-size: 2em; 
+     justify-content: center;
+ }
 
 .header-label {
     font-size: 2em;
 }
 
 .input-container { 
-    background-color: blue;
+    background-color: #595959;
     padding: 20px;
     align-items: stretch;
 }
 
 .input {
     width: 80%;
+    font-family: 'Luxurious Roman', cursive;
+    text-align: center;
     margin-right: 2%;
     font-size: 30px;
     padding: 5px;
+    text-align: center;
+    font-size: 28px;
+    padding: 15px;
+    color: #595959;
+    border: 1px double #cccccc;
 }
 
 .button{
-    padding: 10px;
+    font-family: 'Inconsolata', monospace;
+    display: inline-block;
+    background-color: #4e04b6;
+    border-radius: 10px;
+    border: 1px dotted #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 15px;
+    width: 150px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+.button:hover{
+    background-color: #2c0267;
+    border: 1px double #cccccc;
+    
+
 }
 
 .list-item{
@@ -63,7 +101,12 @@
     padding: 10px;
 
     display: block;
-    background-color: red;
+    /* background-color: red; */
+}
+.dotted{
+
+        border: 1px solid red;
+
 }
 .settings {
     font-weight: bolder;
@@ -91,4 +134,14 @@
 
 .checkbox-checked{
 
+}
+.column{
+    float: left; 
+    width: 50%;
+}
+
+.column:after{
+    content: ""; 
+    display: table;
+    clear: both
 }
